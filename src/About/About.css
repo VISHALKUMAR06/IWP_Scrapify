@@ -1,0 +1,65 @@
+.about{
+    width: auto;
+    height: 100%;
+    background: linear-gradient(113.49deg, #030302 27.91%, #567C25 75.93%);
+    font-weight: bolder;
+    padding:2%;
+    border: none;
+}
+
+.about h3{
+    color: white;
+    font-family: Poppins;
+    font-size: 4rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.about .desc{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Poppins;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding: 1%;
+}
+.content img{
+    padding-left: 10%;
+}
+
+.details{
+    padding-top:2rem;
+    padding-right: 10rem;
+}
+
+.details p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Poppins;
+    text-align: justify;
+    font-weight: normal;
+    line-height: 2rem ;
+}
+
+.details h4{
+    color: white;
+    font-family: Poppins;
+    font-size: 2rem;
+}
+
+.details button {
+    width: 7vw;
+    height: 5vh;
+    justify-content: center;
+    line-height: 1%;
+    font-weight: bold;
+    background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+    border-radius: 10px;
+    font-family: Poppins;
+    border: none;
+    color: white;
+    cursor: pointer;
+}

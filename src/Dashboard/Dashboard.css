@@ -1,0 +1,48 @@
+.dashboard{
+    padding: 3%;
+    background: linear-gradient(113.49deg, #030302 27.91%, #567C25 75.93%);
+    height: auto;
+    
+}
+
+.dashboard h3 {
+    color: white;
+    font-family: Poppins;
+    font-size: 4rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.dash_nav{
+    padding: 1%;
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+}
+
+.dash_nav button {
+    width: 10vw;
+    height: 5vh;
+    justify-content: center;
+    line-height: 1%;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    font-family: Poppins;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.dash_nav button:hover{
+    background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+}
+
+.dash_content{
+    color: white;
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+    
+}
