@@ -11,24 +11,18 @@ export default function Login() {
             <div className='form'>
               <center>
                 <table>
-                <tr>
-                  <td>Phone Number</td>
-                  <td><input type="text" /></td>
-                </tr>
+                
                 <tr>
                   <td>Email</td>
                   <td><input type="text" /></td>
                 </tr> 
+               
                 <tr>
-                  <td>City</td>
-                  <td><input type="text" /></td>
+                  <td>Password</td>
+                  <td><input type="password" /></td>
                 </tr>
                 <tr>
-                  <td>Pincode</td>
-                  <td><input type="text" /></td>
-                </tr>
-                <tr>
-                  <td colSpan={2}><center><button className='btn'>Confirm and Save</button></center></td>
+                  <td colSpan={2}><center><button className='btn'>Login</button></center></td>
                 </tr>
                 </table>
               </center>
